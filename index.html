@@ -1,137 +1,185 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+        Nossa Igreja - Culto, Oração e Comunhão
+    </title>
 
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles.css" />
     <script src="./script.js" defer></script>
-</head>
-<body>
-    
+  </head>
+  <body>
     <header>
-        <nav>
-            <div class="logo">
-                <img src="https://via.placeholder.com/60x60/27ae60/ffffff?text=Igreja" alt="Logo da Igreja">
-                <h1>Nossa Igreja</h1>
-            </div>
-            <ul class="nav-links">
-                <li><a href="#inicio">Início</a></li>
-                <li><a href="#sobre">Sobre Nós</a></li>
-                <li><a href="#localizacao">Localização</a></li>
-                <li><a href="#redes-sociais">Redes Sociais</a></li>
-            </ul>
-            <div class="mobile-menu">
-                <span></span>
-                <span></span>
-                <span></span>
-            </div>
-        </nav>
-        <div class="header-separator"></div>
+      <nav>
+        <div class="logo">
+          <img
+            src="https://via.placeholder.com/60x60/27ae60/ffffff?text=Igreja"
+            alt="Logo da Igreja"
+          />
+          <h1>Nossa Igreja</h1>
+        </div>
+        <ul class="nav-links">
+          <li><a href="#inicio">Início</a></li>
+          <li><a href="#sobre">Sobre</a></li>
+          <li><a href="#localizacao">Localização</a></li>
+          <li><a href="#redes-sociais">Redes Sociais</a></li>
+        </ul>
+        <div class="mobile-menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </nav>
+      <div class="header-separator"></div>
     </header>
 
     <main>
-        <section id="inicio" class="hero">
-            <div class="container">
-                <h2>Bem-vindos à Nossa Igreja</h2>
-                <p>Um lugar de fé, esperança e comunidade</p>
-                <a href="#sobre" class="cta-button">Conheça Nossa História</a>
+      <section id="inicio" class="hero">
+        <div class="container">
+          <h2>Bem-vindos à Nossa Igreja</h2>
+          <p>Um lugar de fé, esperança e comunidade</p>
+          <a href="#sobre" class="cta-button">Conheça Nossa História</a>
+        </div>
+      </section>
+
+      <div class="container">
+        <section id="sobre">
+          <h2>Sobre Nós</h2>
+          <div class="about-content">
+            <img
+              src="https://via.placeholder.com/400x300/27ae60/ffffff?text=Nossa+Igreja"
+              alt="Igreja"
+              class="about-image"
+            />
+            <div class="about-text">
+              <p>
+                Nossa igreja é um lugar onde a fé encontra a vida cotidiana. Há
+                mais de 20 anos servindo nossa comunidade, oferecemos um
+                ambiente acolhedor para todos que buscam crescimento espiritual
+                e conexão com Deus.
+              </p>
+              <p>
+                Acreditamos no poder da oração, na importância da comunidade e
+                no amor incondicional. Nossos cultos são momentos especiais de
+                adoração, reflexão e fortalecimento da fé.
+              </p>
+              <p>
+                Venha fazer parte da nossa família! Todos são bem-vindos,
+                independentemente de onde estejam em sua jornada espiritual.
+              </p>
             </div>
+          </div>
         </section>
 
-        <div class="container">
-            <section id="sobre">
-                <h2>Sobre Nós</h2>
-                <div class="about-content">
-                    <img src="https://via.placeholder.com/400x300/27ae60/ffffff?text=Nossa+Igreja" alt="Igreja" class="about-image">
-                    <div class="about-text">
-                        <p>Nossa igreja é um lugar onde a fé encontra a vida cotidiana. Há mais de 20 anos servindo nossa comunidade, oferecemos um ambiente acolhedor para todos que buscam crescimento espiritual e conexão com Deus.</p>
-                        <p>Acreditamos no poder da oração, na importância da comunidade e no amor incondicional. Nossos cultos são momentos especiais de adoração, reflexão e fortalecimento da fé.</p>
-                        <p>Venha fazer parte da nossa família! Todos são bem-vindos, independentemente de onde estejam em sua jornada espiritual.</p>
-                    </div>
+        <section>
+          <h2>Galeria</h2>
+          <div class="gallery">
+            <div class="gallery-container">
+              <div class="gallery-slide">
+                <img
+                  src="https://via.placeholder.com/800x400/27ae60/ffffff?text=Culto+Dominical"
+                  alt="Culto Dominical"
+                />
+                <div class="gallery-overlay">
+                  <h3>Culto Dominical</h3>
+                  <p>Momentos especiais de adoração e comunhão</p>
                 </div>
-            </section>
+              </div>
+              <div class="gallery-slide">
+                <img
+                  src="https://via.placeholder.com/800x400/2ecc71/ffffff?text=Jovens"
+                  alt="Grupo de Jovens"
+                />
+                <div class="gallery-overlay">
+                  <h3>Grupo de Jovens</h3>
+                  <p>Encontros semanais para crescimento e comunhão</p>
+                </div>
+              </div>
+              <div class="gallery-slide">
+                <img
+                  src="https://via.placeholder.com/800x400/34495e/ffffff?text=Eventos"
+                  alt="Eventos Especiais"
+                />
+                <div class="gallery-overlay">
+                  <h3>Eventos Especiais</h3>
+                  <p>Celebrações e momentos únicos em comunidade</p>
+                </div>
+              </div>
+            </div>
+            <button class="gallery-nav gallery-prev">&lt;</button>
+            <button class="gallery-nav gallery-next">&gt;</button>
+          </div>
+        </section>
 
-            <section>
-                <h2>Galeria</h2>
-                <div class="gallery">
-                    <div class="gallery-container">
-                        <div class="gallery-slide">
-                            <img src="https://via.placeholder.com/800x400/27ae60/ffffff?text=Culto+Dominical" alt="Culto Dominical">
-                            <div class="gallery-overlay">
-                                <h3>Culto Dominical</h3>
-                                <p>Momentos especiais de adoração e comunhão</p>
-                            </div>
-                        </div>
-                        <div class="gallery-slide">
-                            <img src="https://via.placeholder.com/800x400/2ecc71/ffffff?text=Jovens" alt="Grupo de Jovens">
-                            <div class="gallery-overlay">
-                                <h3>Grupo de Jovens</h3>
-                                <p>Encontros semanais para crescimento e comunhão</p>
-                            </div>
-                        </div>
-                        <div class="gallery-slide">
-                            <img src="https://via.placeholder.com/800x400/34495e/ffffff?text=Eventos" alt="Eventos Especiais">
-                            <div class="gallery-overlay">
-                                <h3>Eventos Especiais</h3>
-                                <p>Celebrações e momentos únicos em comunidade</p>
-                            </div>
-                        </div>
-                    </div>
-                    <button class="gallery-nav gallery-prev">&lt;</button>
-                    <button class="gallery-nav gallery-next">&gt;</button>
-                </div>
-            </section>
-
-            <section id="localizacao">
-                <h2>Localização</h2>
-                <div class="location-content">
-                    <img src="https://via.placeholder.com/600x300/27ae60/ffffff?text=Fachada+da+Igreja" alt="Fachada da Igreja" class="location-image">
-                    <div class="map-container">
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3705.6547891814147!2d-43.357300884508776!3d-21.764210385610614!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x989b5d7c9f0f4d%3A0x1a5c1e3b8a3c7f9b!2sJuiz%20de%20Fora%2C%20MG!5e0!3m2!1spt-BR!2sbr!4v1609876543210!5m2!1spt-BR!2sbr" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                    </div>
-                </div>
-            </section>
-        </div>
+        <section id="localizacao">
+          <h2>Localização</h2>
+          <div class="location-content">
+            <img
+              src="https://via.placeholder.com/600x300/27ae60/ffffff?text=Fachada+da+Igreja"
+              alt="Fachada da Igreja"
+              class="location-image"
+            />
+            <div class="map-container">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3705.6547891814147!2d-43.357300884508776!3d-21.764210385610614!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x989b5d7c9f0f4d%3A0x1a5c1e3b8a3c7f9b!2sJuiz%20de%20Fora%2C%20MG!5e0!3m2!1spt-BR!2sbr!4v1609876543210!5m2!1spt-BR!2sbr"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+              ></iframe>
+            </div>
+          </div>
+        </section>
+      </div>
     </main>
 
     <footer id="redes-sociais">
-        <div class="container">
-            <div class="footer-content">
-                <div class="footer-section">
-                    <h3>Contato</h3>
-                    <p><i class="fas fa-map-marker-alt"></i> Rua da Fé, 123 - Centro</p>
-                    <p><i class="fas fa-map-marker-alt"></i> Juiz de Fora, MG - CEP: 36000-000</p>
-                    <p><i class="fas fa-phone"></i> (32) 3333-4444</p>
-                    <p><i class="fas fa-envelope"></i> contato@nossaigreja.com.br</p>
-                </div>
-                <div class="footer-section">
-                    <h3>Horários</h3>
-                    <p>Culto Dominical: 10h e 18h</p>
-                    <p>Culto de Oração: Quarta-feira 19h</p>
-                    <p>Escola Dominical: Domingo 9h</p>
-                    <p>Grupo de Jovens: Sexta-feira 19h</p>
-                </div>
-                <div class="footer-section">
-                    <h3>Siga-nos</h3>
-                    <div class="social-links">
-                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
-                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
-                        <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
-                        <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
-                    </div>
-                </div>
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-section">
+            <h3>Contato</h3>
+            <p><i class="fas fa-map-marker-alt"></i> Rua da Fé, 123 - Centro</p>
+            <p>
+              <i class="fas fa-map-marker-alt"></i> Juiz de Fora, MG - CEP:
+              36000-000
+            </p>
+            <p><i class="fas fa-phone"></i> (32) 3333-4444</p>
+            <p><i class="fas fa-envelope"></i> contato@nossaigreja.com.br</p>
+          </div>
+          <div class="footer-section">
+            <h3>Horários</h3>
+            <p>Culto Dominical: 10h e 18h</p>
+            <p>Culto de Oração: Quarta-feira 19h</p>
+            <p>Escola Dominical: Domingo 9h</p>
+            <p>Grupo de Jovens: Sexta-feira 19h</p>
+          </div>
+          <div class="footer-section">
+            <h3>Siga-nos</h3>
+            <div class="social-links">
+              <a href="#" aria-label="Facebook"
+                ><i class="fab fa-facebook-f"></i
+              ></a>
+              <a href="#" aria-label="Instagram"
+                ><i class="fab fa-instagram"></i
+              ></a>
+              <a href="#" aria-label="YouTube"
+                ><i class="fab fa-youtube"></i
+              ></a>
+              <a href="#" aria-label="Twitter"
+                ><i class="fab fa-twitter"></i
+              ></a>
             </div>
-            <div class="footer-bottom">
-                <p>&copy; 2025 Nossa Igreja. Todos os direitos reservados.</p>
-            </div>
+          </div>
         </div>
+        <div class="footer-bottom">
+          <p>&copy; 2025 Nossa Igreja. Todos os direitos reservados.</p>
+        </div>
+      </div>
     </footer>
 
     <a href="#" class="whatsapp-float" aria-label="WhatsApp">
-        <i class="fab fa-whatsapp"></i>
+      <i class="fab fa-whatsapp"></i>
     </a>
-
-</body>
+  </body>
 </html>
